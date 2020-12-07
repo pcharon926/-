@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="83b4ac04-4ff3-4ed1-8b69-374bd345bde2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/student.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stusystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/stusystem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +31,56 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\system" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.stusystem">
+    <configuration name="Connect_MySql (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Connect_MySql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Connect_MySql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\system\Connect_MySql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="stusystem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="system" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,6 +106,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.stusystem" />
+        <item itemvalue="Python.Connect_MySql (1)" />
+        <item itemvalue="Python.Connect_MySql" />
       </list>
     </recent_temporary>
   </component>
@@ -73,7 +123,7 @@
       <updated>1607244349812</updated>
       <workItem from="1607244377893" duration="14068000" />
       <workItem from="1607309734346" duration="452000" />
-      <workItem from="1607312243989" duration="10077000" />
+      <workItem from="1607312243989" duration="18514000" />
     </task>
     <servers />
   </component>
@@ -81,26 +131,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1431" height="177" key="GridCell.Tab.0.bottom" timestamp="1607326468660">
+    <state width="1431" height="407" key="GridCell.Tab.0.bottom" timestamp="1607338014584">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="177" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1607326468660" />
-    <state width="1431" height="177" key="GridCell.Tab.0.center" timestamp="1607326468660">
+    <state width="1431" height="407" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1607338014584" />
+    <state width="1431" height="407" key="GridCell.Tab.0.center" timestamp="1607338014583">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="177" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1607326468660" />
-    <state width="1431" height="177" key="GridCell.Tab.0.left" timestamp="1607326468660">
+    <state width="1431" height="407" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1607338014583" />
+    <state width="1431" height="407" key="GridCell.Tab.0.left" timestamp="1607338014583">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="177" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1607326468660" />
-    <state width="1431" height="177" key="GridCell.Tab.0.right" timestamp="1607326468660">
+    <state width="1431" height="407" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1607338014583" />
+    <state width="1431" height="407" key="GridCell.Tab.0.right" timestamp="1607338014584">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="177" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1607326468660" />
-    <state x="301" y="74" key="SettingsEditor" timestamp="1607244399896">
+    <state width="1431" height="407" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1607338014584" />
+    <state x="301" y="74" key="SettingsEditor" timestamp="1607330155835">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="301" y="74" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1607244399896" />
+    <state x="301" y="74" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1607330155835" />
     <state x="480" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1607312247703">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -111,6 +161,8 @@
     <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1607251952467" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/system$stusystem.coverage" NAME="stusystem Coverage Results" MODIFIED="1607326468626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/system$Connect_MySql__1_.coverage" NAME="Connect_MySql (1) Coverage Results" MODIFIED="1607337786680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/system$MySql.coverage" NAME="MySql Coverage Results" MODIFIED="1607331172367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/system$stusystem.coverage" NAME="stusystem Coverage Results" MODIFIED="1607338014566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
