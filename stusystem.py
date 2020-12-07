@@ -210,15 +210,68 @@ def modify():
 
 
 def sort():
-    pass
+    show()
+    if os.path.exists(filename):
+        with open(filename, 'r', encoding='utf-8') as rfile:
+            student_old = rfile.readlines()
+            student_new = []
+            for item in student_old:
+                d = dict(eval(item))
+                student_new.append(d)
+    else:
+        return
+    ascORdesc = input("请选择升序排列或降序排列\n升序请输入'0',降序请输入'1':")
+    if ascORdesc == '0':
+        ascORdescBool = False
+    elif ascORdesc == '1':
+        ascORdescBool = True
+    else:
+        print("您输入的有误，请重新输入！！！")
+        sort()
+    mode = input("请选择排序方式\n按照english排序请输入'1',按照Python排序请输入'2',按照Java排序请输入'3',按照总成绩排序请输入'0':")
+    if mode == '1':
+        student_new.sort(key=lambda x: int(x['english']), reverse=ascORdescBool)
+    elif mode == '2':
+        student_new.sort(key=lambda x: int(x['Python']), reverse=ascORdescBool)
+    elif mode == '3':
+        student_new.sort(key=lambda x: int(x['Java']), reverse=ascORdescBool)
+    elif mode == '0':
+        student_new.sort(key=lambda x: int(x['english'])+int(x['Python'])+int(x['Java']), reverse=ascORdescBool)
+    else:
+        print("您的输入有误，请重新输入！！！")
+        sort()
+    show_student(student_new)
 
 
 def total():
-    pass
+    if os.path.exists(filename):
+        with open(filename, 'r', encoding='utf-8') as rfile:
+            students = rfile.readlines()
+            if students:
+                print(f'一共有{len(students)}名学生')
+            else:
+                print("暂无学生信息")
+
+    else:
+        print("暂无学生信息")
+        return
 
 
 def show():
-    pass
+    if os.path.exists(filename):
+        with open(filename, 'r', encoding='utf-8') as rfile:
+            student_old = rfile.readlines()
+            student_lst = []
+            for items in student_old:
+                student_lst.append(eval(items))
+            print(student_lst)
+            if student_lst:
+                show_student(student_lst)
+            else:
+                print("暂无学生信息展示")
+    else:
+        print("暂无学生信息展示")
+        return
 
 
 if __name__ == '__main__':
